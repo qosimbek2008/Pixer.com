@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-image: url(./assats/img/start-screen-gradient-background.svg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+
+.shelter {
+  font-size: 24px;
+  color: white;
+}
+
+.pets {
+  color: #CDCDCD;
+  font-size: 10px;
+  transition: 0.3s;
+}
+
+.pets:hover {
+  box-shadow: 0 3px 0 0 #F1CDB3;
+  color: white;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.gallery-list {
+  align-items: center;
+  margin-right: 500px;
+}
+
+.gallery-list li h1 {
+  color: #F1CDB3;
+}
+
+.widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.widget h1 {
+  font-size: 50px;
+  margin-top: 100px;
+  color: white;
+}
+
+.widget p {
+  font-size: 27px;
+  margin-top: 50px;
+  color: #CDCDCD;
+  margin-bottom: 50px;
+}
+
+.widget a {
+  color: black;
+  border: 0px solid #F1CDB3;
+  background-color: #F1CDB3;
+  padding: 20px 40px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.widget a:hover {
+  background-color: black;
+  color: white;
+}
+
+.widget img {
+  margin-bottom: -4px;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 750px;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+.news .news-text {
+  margin-left: 100px;
+}
+.news .news-text h1 {
+  color: #545454;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.news .news-text p {
+  color: #545454;
+  margin-bottom: 30px;
+}
+.news .news-img {
+  margin-left: 150px;
+}
+
+.colentry {
+  width: 1419px;
+  margin: 0 auto;
+  background: #F6F6F6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+}
+.colentry ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.colentry ul li {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.colentry ul li h3 {
+  font-size: 25px;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+.colentry ul li a {
+  border: 2px solid #F1CDB3;
+  color: #F1CDB3;
+  padding: 15px 25px;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.colentry ul li a:hover {
+  background-color: #F1CDB3;
+  color: white;
+}
+.colentry .excerpt {
+  border: 2px solid #F1CDB3;
+  padding: 20px 30px;
+  border-radius: 30px;
+  background-color: #F1CDB3;
+  color: white;
+  margin-left: 610px;
+  transition: 0.3s;
+}
+.colentry .excerpt:hover {
+  background-color: #F6F6F6;
+  color: #F1CDB3;
+}
+.colentry h1 {
+  text-align: center;
+  color: #545454;
+  font-size: 25px;
+}
+
+.entry-list {
+  width: 1140px;
+  margin: 0 auto;
+}
+.entry-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.entry-list ul .entry-item {
+  margin-left: 70px;
+}
+.entry-list ul .entry-item-img {
+  margin-right: 70px;
+}
+.entry-list ul li {
+  text-align: center;
+}
+.entry-list ul li p {
+  margin-top: 10px;
+}
+.entry-list h1 {
+  margin-top: 50px;
+  color: #545454;
+  text-align: center;
+}
+
+.article {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: #F6F6F6;
+  padding: 100px 0;
+}
+.article .article-list {
+  margin-left: 30px;
+}
+.article .article-list h1 {
+  color: #545454;
+  margin-bottom: 20px;
+}
+.article .article-list p {
+  color: #545454;
+}
+.article .article-list img {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.article .article-list .article-news {
+  color: #545454;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.article .article-item {
+  margin-left: 180px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
+  background-image: url(./assats/img/start-screen-gradient-background.svg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+.tags ul {
+  display: flex;
+  align-items: center;
+  color: #F1CDB3;
+}
+.tags ul li {
+  margin: 10px 0;
+}
+.tags ul li p {
+  margin-left: 20px;
+}
+.tags h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 40px;
+}
+.tags div {
+  margin-left: 150px;
+}
+.tags .tags-img img {
+  margin-bottom: -54px;
+}/*# sourceMappingURL=style.css.map */
